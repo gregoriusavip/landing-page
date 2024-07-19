@@ -164,4 +164,9 @@ main h2 {
 }
 
 footer {
+    background-color: #1F2937;
+    font-size: 16px;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 2vh 0;
 }
