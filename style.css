@@ -73,6 +73,9 @@ button {
     padding: 10px 28px;
     font-weight: bold;
     border-radius: 12px;
+}
+
+.hero-info button {
     border: none;
 }
 
@@ -94,7 +97,7 @@ main h2 {
     text-align: center;
 }
 
-main section {
+#card-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -138,6 +141,26 @@ main section {
     color: #1F2937;
     font-weight: bold;
     align-self: flex-end;
+}
+
+.sign-up-banner {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 64px;
+    margin: 0 10vw;
+    border-radius: 8px;
+}
+
+.banner-text {
+    color: #F9FAF8;
+    max-width: 450px;
+}
+
+.sign-up-banner button {
+    border-color: #F9FAF8;
+    border-style: solid;
 }
 
 footer {
