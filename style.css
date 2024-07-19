@@ -85,6 +85,8 @@ main {
     gap: 48px;
 }
 
+/* -----card styles----- */
+
 main h2 {
     font-size: 36px;
     font-weight: bolder;
@@ -113,6 +115,8 @@ main section {
     height: 165px;
     margin-bottom: 8px;
 }
+
+/* -----quote styles----- */
 
 footer {
 }
