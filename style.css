@@ -7,6 +7,7 @@
 }
 
 body {
+    height: 100vh;
     display: flex;
     flex-direction: column;
     gap: 36px;
@@ -78,7 +79,7 @@ button {
 /* ----main styles---- */
 
 main {
-
+    flex: 1;
 }
 
 main h2 {
