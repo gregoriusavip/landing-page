@@ -118,5 +118,27 @@ main section {
 
 /* -----quote styles----- */
 
+.quote-section {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 64px 169px;
+    justify-content: center;
+    gap: 16px;
+}
+
+#quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+#name {
+    color: #1F2937;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
 footer {
 }
