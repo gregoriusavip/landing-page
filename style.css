@@ -9,6 +9,7 @@
 body {
     display: flex;
     flex-direction: column;
+    gap: 36px;
 }
 
 /* ----header styles---- */
@@ -78,6 +79,36 @@ button {
 
 main {
 
+}
+
+main h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2947;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+main section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 48px;
+}
+
+.card {
+    width: 205px;
+    text-align: center;
+    color: #1F2937;
+}
+
+.rounded-box {
+    border-radius: 25px;
+    border-color: #3882F6;
+    border-style: solid;
+    width: 205px;
+    height: 165px;
+    margin-bottom: 8px;
 }
 
 footer {
